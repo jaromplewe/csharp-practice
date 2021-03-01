@@ -16,6 +16,8 @@ namespace CatWorx.BadgeMaker
                 {
                     break;
                 }
+                Employee currentEmployee = new Employee();
+                currentEmployee.FirstName = input;
                 employees.Add(input);
             }
             return employees;

@@ -4,18 +4,20 @@ namespace CatWorx.BadgeMaker
     {
         public string FirstName;
         public string LastName;
-        public string Id;
+        public int Id;
         public string PhotoUrl;
 
-        public Employee (string firstName, string lastName)
+        public Employee (string firstName, string lastName, int id, string photoUrl)
         {
             FirstName = firstName;
             LastName = lastName;
+            Id = id;
+            PhotoUrl = photoUrl;
         }
 
         public string GetName()
         {
-            return FirstName + " " + LastName;
+            return FirstName + " " + LastName + ", " + Id + ", " + PhotoUrl;
         }
     }
 }

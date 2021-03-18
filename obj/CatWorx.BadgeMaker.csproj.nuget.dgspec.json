@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jaromplewe/sandbox/c#-continuation/CatWorx.BadgeMaker/CatWorx.BadgeMaker.csproj": {}
+    "/Users/jaromplewe/sandbox/csharp-continuation/CatWorx.BadgeMaker/CatWorx.BadgeMaker.csproj": {}
   },
   "projects": {
-    "/Users/jaromplewe/sandbox/c#-continuation/CatWorx.BadgeMaker/CatWorx.BadgeMaker.csproj": {
+    "/Users/jaromplewe/sandbox/csharp-continuation/CatWorx.BadgeMaker/CatWorx.BadgeMaker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jaromplewe/sandbox/c#-continuation/CatWorx.BadgeMaker/CatWorx.BadgeMaker.csproj",
+        "projectUniqueName": "/Users/jaromplewe/sandbox/csharp-continuation/CatWorx.BadgeMaker/CatWorx.BadgeMaker.csproj",
         "projectName": "CatWorx.BadgeMaker",
-        "projectPath": "/Users/jaromplewe/sandbox/c#-continuation/CatWorx.BadgeMaker/CatWorx.BadgeMaker.csproj",
+        "projectPath": "/Users/jaromplewe/sandbox/csharp-continuation/CatWorx.BadgeMaker/CatWorx.BadgeMaker.csproj",
         "packagesPath": "/Users/jaromplewe/.nuget/packages/",
-        "outputPath": "/Users/jaromplewe/sandbox/c#-continuation/CatWorx.BadgeMaker/obj/",
+        "outputPath": "/Users/jaromplewe/sandbox/csharp-continuation/CatWorx.BadgeMaker/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jaromplewe/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

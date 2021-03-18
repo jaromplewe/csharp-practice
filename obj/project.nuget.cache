@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "1FXISHqn+PO2Na2cdRLMU0+kO3zp0p3M1Ajo9VQ1kxxL3A556IHSxvboY1hAevGXuNBurMZf2NbJS2BLAxmEJw==",
+  "dgSpecHash": "yazE+1KF5bguCLPhcXcIbhLim6+r3bJz4nrYud1jsH5cu5X8gFqqSqRKq94CO5tyz8pVcDxDX/m2gTf0WwKaNw==",
   "success": true,
-  "projectFilePath": "/Users/jaromplewe/sandbox/c#-continuation/CatWorx.BadgeMaker/CatWorx.BadgeMaker.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/jaromplewe/sandbox/csharp-continuation/CatWorx.BadgeMaker/CatWorx.BadgeMaker.csproj",
+  "expectedPackageFiles": [
+    "/Users/jaromplewe/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "/Users/jaromplewe/.nuget/packages/microsoft.win32.systemevents/5.0.0/microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "/Users/jaromplewe/.nuget/packages/system.drawing.common/5.0.2/system.drawing.common.5.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

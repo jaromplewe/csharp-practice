@@ -36,23 +36,3 @@ namespace CatWorx.BadgeMaker
         }
     }
 }
-
-
-// Employee</td>
-//     <td></td>
-//   </tr>
-//   <tr>
-//     <td>string</td>
-//     <td>First Name</td>
-//   </tr>
-//   <tr>
-//     <td>string</td>
-//     <td>Last Name</td>
-//   </tr>
-//   <tr>
-//     <td>integer</td>
-//     <td>Id</td>
-//   </tr>
-//   <tr>
-//     <td>string</td>
-//     <td>Photo URL
